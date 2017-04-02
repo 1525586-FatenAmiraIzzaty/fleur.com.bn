@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FleurMasterPage.master.cs" Inherits="_1525586_Fleur_CO5027.FleurMasterPage" %>
+
+<!--Declare HTML has been used to the browser-->
+<!DOCTYPE html>
+<!--Define the language for the page is English also known as "en"-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!--Define the beginning of the head of the page-->
+<head runat="server">
+    <meta charset="utf-8" />
+    <!--Defines how the website should be displayed on a device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- HTML5 Shiv which enables styling of HTML5 elements in versions of Internet Explorer prior to version 9, which do not allow unknown elements to be styled without JavaScript -->
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+                        <![endif]-->
+    <!-- Enables IE6-8 browsers to recognize media queries -->
+    
+    <!--Define the title of the page tab-->
+    <title></title>
+    
+    <!--Defining the css of the page-->
+    <link href="~/css/stylesheet.css" type="text/css" rel="stylesheet" media="screen" runat="server" />
+    <!--Defining the script-->
+<%--    <script type="text/javascript" src="~/scripts/respond.min.js" runat="server" ></script>
+    <script type="text/javascript" src="~/scripts/menu-bar.js" runat="server" ></script>--%>
+<!--Define the ending of the head of the page-->
+</head>
+<!--Define the body of the page-->
+<body>
+    <form id="form1" runat="server">
+        <!--Create wrapper using div id element that holds all content in the body container that should appear in the viewport of any device -->
+        <!--Beginning of the wrapper-->
+        <div id="wrapper">
+            <!--Beginning of the header-->
+            <header>
+                <!--Display the logo-->
+                <div id="logo">
+                    <img src="~/images/logo.png" alt="logo" title="Logo" runat="server" />
+                </div>
+                <!--Beginning of the Main Menu / Navigation-->
+                <nav class="nav-bar" id="top-nav-bar">
+                    <a href="~/default.aspx" title="Home" runat="server">
+                        <img src="~/images/home-icon.png" alt="home_icon" title="Home" runat="server" />
+                        Home</a>
+                    <a href="#about" title="About">
+                        <img src="~/images/about-icon.png" alt="about_icon" title="About" runat="server" />
+                        About</a>
+                    <a href="#products" title="Products">
+                        <img src="~/images/product-icon.png" alt="product_icon" title="Products" runat="server" />
+                        Products</a>
+                    <a href="~/contact.aspx" title="Contact" runat="server">
+                        <img src="~/images/contact-icon.png" alt="contact_icon" title="Contact" runat="server" />
+                        Contact</a>
+                    <a href="#accounts" title="Login/Register">
+                        <img src="~/images/account-icon.png" alt="account_icon" title="Login/Register" runat="server" />
+                        My Account</a>
+                    <a href="#wishlist" title="Wish List">
+                        <img src="~/images/wishlist-icon.png" alt="wishlist_icon" title="Wish List" runat="server" />
+                        Wish List(0)</a>
+                    <a href="#shoppingCart" title="Shopping Cart">
+                        <img src="~/images/shoppingcart-icon.png" alt="shoppingcart_icon" title="Shopping Cart" runat="server" />
+                        Shopping Cart</a>
+                    <a href="#checkOut" title="Check Out">
+                        <img src="~/images/checkout-icon.png" alt="checkout_icon" title="Check Out" runat="server" />
+                        Check Out</a>
+                    <a href="javascript:void(0);" style="font-size: 15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                    <!--Ending of the Main Menu/ Navigation-->
+                </nav>
+                <!--Ending of the header-->
+            </header>
+            <!--Beginning of the main content section of the page-->
+            <section id="maincontent">
+            <div>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <!--Ending of the main content section of the page-->
+            </section>
+            <!--Beginning of the footer section of the page-->
+            <footer>
+                Copyright &copy; 2017 Fleur.com.bn. All rights reserved. MAILING ADDRESS: <a href="mail:info@fleur.com.bn" title="Mailing Address">info@fleur.com.bn</a> CONTACT NUMBER: <a href="tel:+673-888-5555" title="Contact Number">673-888-5555</a>
+                <div id="sitemap">
+                    Sitemap: 
+			        <a href="#" title="Home">Home</a> | 
+			        <a href="#" title="About Us">About Us</a> | 
+			        <a href="#" title="Products">Products</a> | 
+			        <a href="#" title="Contacts">Contact</a> | 
+			        <a href="#" title="Accounts">My Account</a> | 
+                    <a href="#" title="Wish List">Wish List</a> | 
+                    <a href="#" title="Shopping Cart">Shopping Cart</a> | 
+                    <a href="#" title="Check Out">Check Out</a> | 
+			        <a href="#" title="Admin">Admin</a>
+                </div>
+                <div id="validator">
+                    Validator: 
+			        <a href="http://validator.w3.org/check?uri=referer" title="Validate HTML">Validate HTML</a> | 
+			        <a href="http://jigsaw.w3.org/css-validator/check/referer" title="Validate CSS">Validate CSS</a> | 
+                    <a href="http://achecker.ca/checker/?uri=referer" title="Validate CSS">Check WCAG</a>
+                </div>
+            <!--Ending of the footer section of the page-->
+            </footer>
+        <!--Ending of the wrapper-->
+        </div>
+    </form>
+</body>
+</html>
