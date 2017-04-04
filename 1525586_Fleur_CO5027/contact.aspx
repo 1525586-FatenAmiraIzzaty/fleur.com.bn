@@ -96,7 +96,7 @@
                 }
             </script>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArNa_y6KM7_ymMw7Hwq0cwd4HMYnl78k4&callback=initMap"
-                async defer></script>
+                async="async" defer="defer"></script>
         </div>
     </div>
 </asp:Content>
