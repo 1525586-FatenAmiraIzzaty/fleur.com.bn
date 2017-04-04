@@ -46,9 +46,9 @@
                     <a href="~/default.aspx" title="Home" runat="server">
                         <img src="~/images/home-icon.png" alt="home_icon" title="Home" runat="server" />
                         Home</a>
-                    <a href="#about" title="About">
+                    <%--<a href="#about" title="About">
                         <img src="~/images/about-icon.png" alt="about_icon" title="About" runat="server" />
-                        About</a>
+                        About</a>--%>
                     <a href="#products" title="Products">
                         <img src="~/images/product-icon.png" alt="product_icon" title="Products" runat="server" />
                         Products</a>
@@ -58,9 +58,9 @@
                     <a href="#accounts" title="Login/Register">
                         <img src="~/images/account-icon.png" alt="account_icon" title="Login/Register" runat="server" />
                         My Account</a>
-                    <a href="#wishlist" title="Wish List">
+                   <%-- <a href="#wishlist" title="Wish List">
                         <img src="~/images/wishlist-icon.png" alt="wishlist_icon" title="Wish List" runat="server" />
-                        Wish List(0)</a>
+                        Wish List(0)</a>--%>
                     <a href="#shoppingCart" title="Shopping Cart">
                         <img src="~/images/shoppingcart-icon.png" alt="shoppingcart_icon" title="Shopping Cart" runat="server" />
                         Shopping Cart</a>
@@ -86,11 +86,11 @@
                 <div id="sitemap">
                     Sitemap: 
 			        <a href="#" title="Home">Home</a> | 
-			        <a href="#" title="About Us">About Us</a> | 
+<%--			        <a href="#" title="About Us">About Us</a> | --%>
 			        <a href="#" title="Products">Products</a> | 
 			        <a href="#" title="Contacts">Contact</a> | 
 			        <a href="#" title="Accounts">My Account</a> | 
-                    <a href="#" title="Wish List">Wish List</a> | 
+<%--                    <a href="#" title="Wish List">Wish List</a> | --%>
                     <a href="#" title="Shopping Cart">Shopping Cart</a> | 
                     <a href="#" title="Check Out">Check Out</a> | 
 			        <a href="#" title="Admin">Admin</a>
