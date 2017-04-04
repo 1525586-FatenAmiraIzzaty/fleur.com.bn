@@ -14,16 +14,20 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
                         <![endif]-->
     <!-- Enables IE6-8 browsers to recognize media queries -->
-    
+
     <!--Define the title of the page tab-->
     <title></title>
-    
+
     <!--Defining the css of the page-->
     <link href="~/css/stylesheet.css" type="text/css" rel="stylesheet" media="screen" runat="server" />
     <!--Defining the script-->
-<%--    <script type="text/javascript" src="~/scripts/respond.min.js" runat="server" ></script>
-    <script type="text/javascript" src="~/scripts/menu-bar.js" runat="server" ></script>--%>
-<!--Define the ending of the head of the page-->
+<%--    <script type="text/javascript" src="~/scripts/respond.min.js" runat="server"></script>
+    <script type="text/javascript" src="~/scripts/menu-bar.js" runat="server"></script>--%>
+
+    <asp:ContentPlaceHolder ID="script" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!--Define the ending of the head of the page-->
 </head>
 <!--Define the body of the page-->
 <body>
@@ -70,11 +74,11 @@
             </header>
             <!--Beginning of the main content section of the page-->
             <section id="maincontent">
-            <div>
-                <asp:ContentPlaceHolder ID="MainContent" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
-            <!--Ending of the main content section of the page-->
+                <div>
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <!--Ending of the main content section of the page-->
             </section>
             <!--Beginning of the footer section of the page-->
             <footer>
@@ -97,9 +101,9 @@
 			        <a href="http://jigsaw.w3.org/css-validator/check/referer" title="Validate CSS">Validate CSS</a> | 
                     <a href="http://achecker.ca/checker/?uri=referer" title="Validate CSS">Check WCAG</a>
                 </div>
-            <!--Ending of the footer section of the page-->
+                <!--Ending of the footer section of the page-->
             </footer>
-        <!--Ending of the wrapper-->
+            <!--Ending of the wrapper-->
         </div>
     </form>
 </body>
