@@ -60,7 +60,9 @@
         <p>Monday - Sunday : 9.00AM - 6.00PM</p>
         <p class="bottom_para">Friday : 9.00AM - 12.00PM, 2.00PM - 6.00PM</p>
         <div id="map">
-           <img src="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/114.931669,4.885731,17.70,0.00,0.00/600x400@2x?access_token=pk.eyJ1IjoiMTUyNTU4Ni1mYXRlbmFtaXJhaXp6YXR5IiwiYSI6ImNqMTRqZzR3NDAwOHgzNG82enJtb2k1aWcifQ.Z90ZApEnbOHHeZ7IrTVmjQ" alt="Mapbox Streets" />
+
+            <!-- Static map display -->
+            <img src="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/114.931669,4.885731,16.90,0.00,0.00/900x500@2x?access_token=pk.eyJ1IjoiMTUyNTU4Ni1mYXRlbmFtaXJhaXp6YXR5IiwiYSI6ImNqMTRqZzR3NDAwOHgzNG82enJtb2k1aWcifQ.Z90ZApEnbOHHeZ7IrTVmjQ"  alt="Fleur.com.bn is located at Freshco Batu Satu near KFC and Jollibee" />
             <script>
 
                 // This example displays a marker at the center of Australia.
