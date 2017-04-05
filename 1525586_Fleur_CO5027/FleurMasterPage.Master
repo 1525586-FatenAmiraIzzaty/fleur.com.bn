@@ -9,19 +9,19 @@
     <meta charset="utf-8" />
     <!--Defines how the website should be displayed on a device-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- HTML5 Shiv which enables styling of HTML5 elements in versions of Internet Explorer prior to version 9, which do not allow unknown elements to be styled without JavaScript -->
+<%--     <!-- HTML5 Shiv which enables styling of HTML5 elements in versions of Internet Explorer prior to version 9, which do not allow unknown elements to be styled without JavaScript -->
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
                         <![endif]-->
-    <!-- Enables IE6-8 browsers to recognize media queries -->
+    <!-- Enables IE6-8 browsers to recognize media queries -->--%>
 
     <!--Define the title of the page tab-->
     <title></title>
 
     <!--Defining the css of the page-->
     <link href="~/css/stylesheet.css" type="text/css" rel="stylesheet" media="screen" runat="server" />
-    <!--Defining the script-->
-<%--    <script type="text/javascript" src="~/scripts/respond.min.js" runat="server"></script>
+<%--    <!--Defining the script-->
+    <script type="text/javascript" src="~/scripts/respond.min.js" runat="server"></script>
     <script type="text/javascript" src="~/scripts/menu-bar.js" runat="server"></script>--%>
 
     <asp:ContentPlaceHolder ID="script" runat="server">

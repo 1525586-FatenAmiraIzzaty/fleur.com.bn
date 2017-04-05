@@ -17,12 +17,12 @@ a, img {
 
     /* unvisited link */
     a:link {
-        color: #3333ff;
+        color: #dddddd;
     }
 
     /* visited link */
     a:visited {
-        color: #dddddd;
+        color: #ffb6c1;
     }
 
     /* mouse over link */
@@ -266,9 +266,15 @@ footer {
 
 #map {
     width: 900px;
-    height: 340px;
+    height: 500px;
     margin: 0px;
     overflow: scroll;
+}
+
+#map img {
+    width: 900px;
+    height: 500px;
+    margin: 0px;
 }
 
 @media screen and (max-width: 480px) {
