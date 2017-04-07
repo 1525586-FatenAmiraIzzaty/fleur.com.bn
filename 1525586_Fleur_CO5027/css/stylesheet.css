@@ -193,9 +193,9 @@ footer {
             }
 
 .button a, .button {
-    background-color: #ff80ff;
+    background-color: #005b1e;
     border: none;
-    color: #ff80ff;
+    color: #005b1e;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
@@ -230,7 +230,8 @@ footer {
         border: none;
         border-radius: 2px;
         font-size: 1.4em;
-        background-color: #efefef;
+        background-color: #005b1e;
+        color: #ffffff;
         border: 2px solid #000000;
         font-weight: bold;
     }
