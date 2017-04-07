@@ -85,10 +85,10 @@
                 Copyright &copy; 2017 Fleur.com.bn. All rights reserved. MAILING ADDRESS: <a href="mail:info@fleur.com.bn" title="Mailing Address">info@fleur.com.bn</a> CONTACT NUMBER: <a href="tel:+673-888-5555" title="Contact Number">673-888-5555</a>
                 <div id="sitemap">
                     Sitemap: 
-			        <a href="#" title="Home">Home</a> | 
+			        <a href="~/default.aspx" title="Home" runat="server">Home</a> | 
 <%--			        <a href="#" title="About Us">About Us</a> | --%>
 			        <a href="#" title="Products">Products</a> | 
-			        <a href="#" title="Contacts">Contact</a> | 
+			        <a href="~/contact.aspx" title="Contacts" runat="server">Contact</a> | 
 			        <a href="#" title="Accounts">My Account</a> | 
 <%--                    <a href="#" title="Wish List">Wish List</a> | --%>
                     <a href="#" title="Shopping Cart">Shopping Cart</a> | 
