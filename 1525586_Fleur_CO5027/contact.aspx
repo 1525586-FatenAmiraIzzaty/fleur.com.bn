@@ -9,7 +9,7 @@
             <asp:Label ID="lblName" runat="server" Text="Name:"></asp:Label>
         </div>
         <div>
-            <asp:TextBox ID="txtName" placeholder="Your name" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtName" placeholder="Your name" label="txtName" Text="Input your name" runat="server"></asp:TextBox>
         </div>
         <div class="warning">
             <asp:RequiredFieldValidator ID="reqNameValidator" runat="server" ErrorMessage="*Name is required." ControlToValidate="txtName"></asp:RequiredFieldValidator>
@@ -18,7 +18,7 @@
             <asp:Label ID="lblEmail" runat="server" Text="Email:"></asp:Label>
         </div>
         <div>
-            <asp:TextBox ID="txtEmail" placeholder="Your valid email address" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtEmail" placeholder="Your valid email address" label="txtEmail" Text="Input your email" runat="server"></asp:TextBox>
         </div>
         <div class="warning">
             <asp:RequiredFieldValidator ID="reqEmailValidator" runat="server" ControlToValidate="txtEmail" ErrorMessage="*Email is required."></asp:RequiredFieldValidator>
@@ -30,7 +30,7 @@
             <asp:Label ID="lblSubject" runat="server" Text="Subject:"></asp:Label>
         </div>
         <div>
-            <asp:TextBox ID="txtSubject" placeholder="Your subject" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtSubject" placeholder="Your subject" label="txtSubject" Text="Input your subject" runat="server"></asp:TextBox>
         </div>
         <div class="warning">
             <asp:RequiredFieldValidator ID="reqSubjectValidator" runat="server" ErrorMessage="*Subject is required." ControlToValidate="txtSubject"></asp:RequiredFieldValidator>
@@ -39,7 +39,7 @@
             <asp:Label ID="lblMessage" runat="server" Text="Message:"></asp:Label>
         </div>
         <div>
-            <asp:TextBox ID="txtMessage" placeholder="Your message" runat="server" TextMode="MultiLine"></asp:TextBox>
+            <asp:TextBox ID="txtMessage" placeholder="Your message" label="txtMessage" Text="Input your message" runat="server" TextMode="MultiLine"></asp:TextBox>
         </div>
         <div class="warning">
             <asp:RequiredFieldValidator ID="reqMessageValidator" runat="server" ErrorMessage="*Message is required." ControlToValidate="txtMessage"></asp:RequiredFieldValidator>
