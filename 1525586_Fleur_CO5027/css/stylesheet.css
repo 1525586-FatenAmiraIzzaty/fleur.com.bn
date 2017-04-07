@@ -1,6 +1,6 @@
 ﻿body {
     margin: 0;
-    font-size: 20px;
+    font-size: 1.3em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ a, img {
 
     /* unvisited link */
     a:link {
-        color: #dddddd;
+        color: #ffffff;
     }
 
     /* visited link */
@@ -73,7 +73,7 @@ footer {
     padding-left: 1%;
     text-indent: 3px;
     overflow: hidden;
-    background-color: #009933;
+    background-color: #005b1e;
     height: 100%;
 }
 
@@ -105,7 +105,7 @@ footer {
 /*Navigation*/
 .nav-bar {
     overflow: hidden;
-    background-color: #009933;
+    background-color: #005b1e;
     height: 100%;
 }
 
@@ -116,7 +116,7 @@ footer {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 1.5em;
     }
 
         .nav-bar a:hover {
@@ -164,7 +164,7 @@ footer {
     .product .product-header {
         background-color: #ffffff;
         color: white;
-        font-size: 25px;
+        font-size: 1.4em;
     }
 
         .product .product-header img {
@@ -181,7 +181,7 @@ footer {
 
     .product .prod_label {
         background-color: #eee;
-        font-size: 20px;
+        font-size: 1.4em;
     }
 
         .product .prod_label a {
@@ -192,14 +192,14 @@ footer {
                 color: #99ff66;
             }
 
-.button {
+.button a, .button {
     background-color: #ff80ff;
     border: none;
-    color: #ffffff;
+    color: #ff80ff;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.0em;
     margin: 0;
 }
 
@@ -214,7 +214,7 @@ footer {
         width: 400px;
         height: 40px;
         border-radius: 2px;
-        font-size: 17px;
+        font-size: 1.4em;
         padding-left: 5px;
         border: 1px solid #000000;
         background: #ffffff;
@@ -229,7 +229,7 @@ footer {
         height: 40px;
         border: none;
         border-radius: 2px;
-        font-size: 17px;
+        font-size: 1.4em;
         background-color: #efefef;
         border: 2px solid #000000;
         font-weight: bold;
@@ -259,7 +259,7 @@ footer {
 
 #address #address_label {
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 1.4em;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -341,7 +341,7 @@ footer {
 
         .product .prod_label {
             background-color: #eee;
-            font-size: 20px;
+            font-size: 1.0em;
         }
 
     .button {
@@ -351,7 +351,7 @@ footer {
         padding: 5px 20px;
         text-align: center;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 0.9em;
         margin: 0;
     }
 
@@ -391,7 +391,7 @@ footer {
 
         #address #address_label {
             margin-bottom: 10px;
-            font-size: 25px;
+            font-size: 1.0em;
             font-weight: bold;
             text-decoration: underline;
         }
